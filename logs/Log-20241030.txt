@@ -1,0 +1,357 @@
+2024-10-30 11:42:20.363 +03:00 [INF] User profile is available. Using '/Users/toad/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-30 11:42:20.644 +03:00 [INF] Now listening on: https://localhost:7136
+2024-10-30 11:42:20.644 +03:00 [INF] Now listening on: http://localhost:5178
+2024-10-30 11:42:20.646 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-30 11:42:20.671 +03:00 [INF] Hosting environment: Development
+2024-10-30 11:42:20.672 +03:00 [INF] Content root path: /Users/toad/Desktop/diplom/PizzaServerApp/pizzaServerApp
+2024-10-30 11:42:22.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger - null null
+2024-10-30 11:42:22.473 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger - 301 0 null 19.9799ms
+2024-10-30 11:42:22.485 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:42:22.521 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 35.9804ms
+2024-10-30 11:42:22.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui.css - null null
+2024-10-30 11:42:22.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui-bundle.js - null null
+2024-10-30 11:42:22.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-30 11:42:22.807 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-30 11:42:22.807 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui.css - 200 143943 text/css 279.43ms
+2024-10-30 11:42:22.810 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-30 11:42:22.811 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 283.0307ms
+2024-10-30 11:42:22.873 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-30 11:42:22.873 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 344.943ms
+2024-10-30 11:42:23.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - null null
+2024-10-30 11:42:23.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - null null
+2024-10-30 11:42:23.020 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-30 11:42:23.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - 200 628 image/png 1.6033ms
+2024-10-30 11:42:23.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/favicon-16x16.png - null null
+2024-10-30 11:42:23.067 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-30 11:42:23.067 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/favicon-16x16.png - 200 665 image/png 23.6461ms
+2024-10-30 11:42:23.098 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/apple-touch-icon-precomposed.png - null null
+2024-10-30 11:42:23.199 +03:00 [INF] HTTP GET /apple-touch-icon-precomposed.png responded 404 in 40.3111 ms
+2024-10-30 11:42:23.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/apple-touch-icon-precomposed.png - 404 0 null 101.3087ms
+2024-10-30 11:42:23.200 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/apple-touch-icon-precomposed.png, Response status code: 404
+2024-10-30 11:42:23.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/apple-touch-icon.png - null null
+2024-10-30 11:42:23.202 +03:00 [INF] HTTP GET /apple-touch-icon.png responded 404 in 0.6490 ms
+2024-10-30 11:42:23.202 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/apple-touch-icon.png - 404 0 null 1.4604ms
+2024-10-30 11:42:23.202 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/apple-touch-icon.png, Response status code: 404
+2024-10-30 11:42:23.206 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 193.6472ms
+2024-10-30 11:49:23.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:49:23.768 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 19.232ms
+2024-10-30 11:49:54.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:49:54.719 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 4.1277ms
+2024-10-30 11:49:58.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:49:58.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 3.3465ms
+2024-10-30 11:49:58.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:49:58.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 6.8306ms
+2024-10-30 11:49:59.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:49:59.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 5.1113ms
+2024-10-30 11:49:59.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:49:59.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 9.9083ms
+2024-10-30 11:50:00.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:50:00.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 48.9015ms
+2024-10-30 11:50:00.159 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:50:00.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 52.6283ms
+2024-10-30 11:50:00.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:50:00.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 1.6244ms
+2024-10-30 11:50:00.416 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:50:00.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 3.7277ms
+2024-10-30 11:50:00.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:50:00.566 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 1.7941ms
+2024-10-30 11:50:00.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:50:00.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 24.9035ms
+2024-10-30 11:51:50.404 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger - null null
+2024-10-30 11:51:50.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger - 301 0 null 30.1487ms
+2024-10-30 11:51:50.450 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:51:50.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 2.7525ms
+2024-10-30 11:51:50.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - null null
+2024-10-30 11:51:50.612 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.6481ms
+2024-10-30 11:52:21.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger - null null
+2024-10-30 11:52:21.530 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger - 301 0 null 3.3265ms
+2024-10-30 11:52:24.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/ - null null
+2024-10-30 11:52:24.395 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:52:24.396 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:52:24.402 +03:00 [INF] HTTP GET / responded 404 in 14.8573 ms
+2024-10-30 11:52:24.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/ - 404 0 null 19.0072ms
+2024-10-30 11:52:24.404 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/, Response status code: 404
+2024-10-30 11:52:41.125 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html/api - null null
+2024-10-30 11:52:41.127 +03:00 [INF] HTTP GET /swagger/index.html/api responded 404 in 0.1960 ms
+2024-10-30 11:52:41.127 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html/api - 404 0 null 1.9174ms
+2024-10-30 11:52:41.127 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/swagger/index.html/api, Response status code: 404
+2024-10-30 11:52:41.177 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/favicon.ico - null null
+2024-10-30 11:52:41.179 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 1.1754 ms
+2024-10-30 11:52:41.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/favicon.ico - 404 0 null 2.6989ms
+2024-10-30 11:52:41.180 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/favicon.ico, Response status code: 404
+2024-10-30 11:52:44.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - null null
+2024-10-30 11:52:44.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.7825ms
+2024-10-30 11:52:58.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/api/BannerType - null null
+2024-10-30 11:52:58.492 +03:00 [INF] HTTP GET /swagger/api/BannerType responded 404 in 0.1429 ms
+2024-10-30 11:52:58.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/api/BannerType - 404 0 null 1.2431ms
+2024-10-30 11:52:58.492 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/swagger/api/BannerType, Response status code: 404
+2024-10-30 11:53:02.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-30 11:53:02.014 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-30 11:53:02.018 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-30 11:53:02.018 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 10.1590 ms
+2024-10-30 11:53:02.019 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 14.5766ms
+2024-10-30 11:53:06.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - null null
+2024-10-30 11:53:06.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.5612ms
+2024-10-30 11:53:21.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-30 11:53:21.888 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 6.8721ms
+2024-10-30 11:53:23.860 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html/apiu - null null
+2024-10-30 11:53:23.862 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:23.862 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:23.863 +03:00 [INF] HTTP GET /swagger/index.html/apiu responded 404 in 1.7725 ms
+2024-10-30 11:53:23.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html/apiu - 404 0 null 3.8061ms
+2024-10-30 11:53:23.864 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/swagger/index.html/apiu, Response status code: 404
+2024-10-30 11:53:25.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html/api - null null
+2024-10-30 11:53:25.870 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:25.870 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:25.871 +03:00 [INF] HTTP GET /swagger/index.html/api responded 404 in 0.2563 ms
+2024-10-30 11:53:25.871 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html/api - 404 0 null 0.7225ms
+2024-10-30 11:53:25.871 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/swagger/index.html/api, Response status code: 404
+2024-10-30 11:53:26.261 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html/api - null null
+2024-10-30 11:53:26.262 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:26.262 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:26.264 +03:00 [INF] HTTP GET /swagger/index.html/api responded 404 in 2.2106 ms
+2024-10-30 11:53:26.264 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html/api - 404 0 null 3.4493ms
+2024-10-30 11:53:26.264 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/swagger/index.html/api, Response status code: 404
+2024-10-30 11:53:29.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/api - null null
+2024-10-30 11:53:29.180 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:29.180 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:29.180 +03:00 [INF] HTTP GET /swagger/api responded 404 in 0.5515 ms
+2024-10-30 11:53:29.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/api - 404 0 null 1.4198ms
+2024-10-30 11:53:29.181 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/swagger/api, Response status code: 404
+2024-10-30 11:53:31.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:31.628 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:31.628 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:31.629 +03:00 [INF] HTTP GET /api responded 404 in 1.0940 ms
+2024-10-30 11:53:31.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 2.8746ms
+2024-10-30 11:53:31.630 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:32.995 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:32.996 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:32.998 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:33.000 +03:00 [INF] HTTP GET /api responded 404 in 4.3468 ms
+2024-10-30 11:53:33.000 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 5.4114ms
+2024-10-30 11:53:33.000 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:33.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:33.440 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:33.440 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:33.440 +03:00 [INF] HTTP GET /api responded 404 in 0.2775 ms
+2024-10-30 11:53:33.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 0.8705ms
+2024-10-30 11:53:33.440 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:33.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:33.648 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:33.648 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:33.649 +03:00 [INF] HTTP GET /api responded 404 in 1.2739 ms
+2024-10-30 11:53:33.649 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 2.5184ms
+2024-10-30 11:53:33.650 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:33.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:33.776 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:33.776 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:33.777 +03:00 [INF] HTTP GET /api responded 404 in 0.4730 ms
+2024-10-30 11:53:33.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 1.1417ms
+2024-10-30 11:53:33.777 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:33.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:33.906 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:33.906 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:33.906 +03:00 [INF] HTTP GET /api responded 404 in 0.3514 ms
+2024-10-30 11:53:33.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 1ms
+2024-10-30 11:53:33.906 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:34.039 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:34.039 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:34.039 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:34.039 +03:00 [INF] HTTP GET /api responded 404 in 0.2661 ms
+2024-10-30 11:53:34.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 1.0423ms
+2024-10-30 11:53:34.039 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:34.173 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:34.174 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:34.174 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:34.175 +03:00 [INF] HTTP GET /api responded 404 in 0.5538 ms
+2024-10-30 11:53:34.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 2.2625ms
+2024-10-30 11:53:34.175 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:34.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:34.295 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:34.297 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:34.297 +03:00 [INF] HTTP GET /api responded 404 in 1.9443 ms
+2024-10-30 11:53:34.297 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 2.5177ms
+2024-10-30 11:53:34.297 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:34.428 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:34.429 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:34.429 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:34.429 +03:00 [INF] HTTP GET /api responded 404 in 0.5813 ms
+2024-10-30 11:53:34.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 2.0442ms
+2024-10-30 11:53:34.430 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:53:34.574 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api - null null
+2024-10-30 11:53:34.575 +03:00 [INF] CORS policy execution failed.
+2024-10-30 11:53:34.575 +03:00 [INF] Request origin https://web.postman.co does not have permission to access the resource.
+2024-10-30 11:53:34.575 +03:00 [INF] HTTP GET /api responded 404 in 0.4495 ms
+2024-10-30 11:53:34.575 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api - 404 0 null 1.5098ms
+2024-10-30 11:53:34.575 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api, Response status code: 404
+2024-10-30 11:56:27.773 +03:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-10-30 11:56:27.773 +03:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-10-30 11:56:27.801 +03:00 [ERR] Unhandled exception while processing 0HN7ONR2ALRNA.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Threading.Tasks.UnwrapPromise`1.TrySetFromTask(Task task, Boolean lookForOce)
+   at System.Threading.Tasks.UnwrapPromise`1.Invoke(Task completingTask)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteToOutputPipe()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()
+2024-10-30 11:56:27.801 +03:00 [ERR] Unhandled exception while processing 0HN7ONR2ALRNB.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Threading.Tasks.UnwrapPromise`1.TrySetFromTask(Task task, Boolean lookForOce)
+   at System.Threading.Tasks.UnwrapPromise`1.Invoke(Task completingTask)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteToOutputPipe()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()

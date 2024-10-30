@@ -1,0 +1,262 @@
+2024-05-02 00:24:34.324 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/ProductType - null null
+2024-05-02 00:24:34.335 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:24:34.335 +03:00 [INF] HTTP OPTIONS /api/ProductType responded 204 in 0.3119 ms
+2024-05-02 00:24:34.336 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/ProductType - 204 null null 36.5971ms
+2024-05-02 00:24:34.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/ProductType - application/json null
+2024-05-02 00:24:34.343 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:24:34.345 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 21:24:34'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 00:24:34.346 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 21:24:34'.
+2024-05-02 00:24:34.346 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 00:24:34.346 +03:00 [INF] Route matched with {action = "GetProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.productTypeDTO]]] GetProductTypes() on controller pizzaServerApp.Controllers.ProductTypeController (pizzaServerApp).
+2024-05-02 00:24:34.408 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.productTypeDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 00:24:34.409 +03:00 [INF] Executed action pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp) in 62.4906ms
+2024-05-02 00:24:34.409 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 00:24:34.409 +03:00 [INF] HTTP GET /api/ProductType responded 200 in 65.9725 ms
+2024-05-02 00:24:34.410 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/ProductType - 200 null application/json; charset=utf-8 66.2487ms
+2024-05-02 00:24:50.008 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/ProductType - null null
+2024-05-02 00:24:50.009 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:24:50.009 +03:00 [INF] HTTP OPTIONS /api/ProductType responded 204 in 0.0730 ms
+2024-05-02 00:24:50.009 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/ProductType - 204 null null 0.3585ms
+2024-05-02 00:24:50.009 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - null null
+2024-05-02 00:24:50.010 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:24:50.011 +03:00 [INF] HTTP OPTIONS /api/DefaultProducts/MenuList responded 204 in 0.7660 ms
+2024-05-02 00:24:50.011 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - 204 null null 2.1343ms
+2024-05-02 00:24:50.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/ProductType - application/json null
+2024-05-02 00:24:50.017 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:24:50.017 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 21:24:50'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 00:24:50.019 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 21:24:50'.
+2024-05-02 00:24:50.019 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 00:24:50.019 +03:00 [INF] Route matched with {action = "GetProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.productTypeDTO]]] GetProductTypes() on controller pizzaServerApp.Controllers.ProductTypeController (pizzaServerApp).
+2024-05-02 00:24:50.056 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.productTypeDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 00:24:50.056 +03:00 [INF] Executed action pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp) in 37.1257ms
+2024-05-02 00:24:50.056 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 00:24:50.057 +03:00 [INF] HTTP GET /api/ProductType responded 200 in 39.9918 ms
+2024-05-02 00:24:50.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/ProductType - 200 null application/json; charset=utf-8 40.2819ms
+2024-05-02 00:24:50.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - application/json null
+2024-05-02 00:24:50.064 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:24:50.065 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 21:24:50'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 00:24:50.066 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 21:24:50'.
+2024-05-02 00:24:50.066 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 00:24:50.066 +03:00 [INF] Route matched with {action = "GetMenuList", controller = "DefaultProducts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.defaultProductDTO]]] GetMenuList() on controller pizzaServerApp.Controllers.DefaultProductsController (pizzaServerApp).
+2024-05-02 00:24:50.128 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.menuListDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 00:24:50.128 +03:00 [INF] Executed action pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp) in 62.404ms
+2024-05-02 00:24:50.128 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 00:24:50.128 +03:00 [INF] HTTP GET /api/DefaultProducts/MenuList responded 200 in 64.1044 ms
+2024-05-02 00:24:50.129 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - 200 null application/json; charset=utf-8 66.1115ms
+2024-05-02 00:24:50.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg - null null
+2024-05-02 00:24:50.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg - null null
+2024-05-02 00:24:50.285 +03:00 [INF] Sending file. Request path: '/Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg'. Physical path: '/Users/toad/Desktop/diplom/PizzaServerApp/pizzaServerApp/wwwroot/Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg'
+2024-05-02 00:24:50.285 +03:00 [INF] Sending file. Request path: '/Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg'. Physical path: '/Users/toad/Desktop/diplom/PizzaServerApp/pizzaServerApp/wwwroot/Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg'
+2024-05-02 00:24:50.286 +03:00 [INF] HTTP GET /Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg responded 200 in 79.6081 ms
+2024-05-02 00:24:50.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg - 200 46485 image/jpeg 100.4351ms
+2024-05-02 00:24:50.285 +03:00 [INF] HTTP GET /Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg responded 200 in 79.3479 ms
+2024-05-02 00:24:50.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg - 200 45194 image/jpeg 100.6531ms
+2024-05-02 00:24:51.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg - null null
+2024-05-02 00:24:51.853 +03:00 [INF] Sending file. Request path: '/Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg'. Physical path: '/Users/toad/Desktop/diplom/PizzaServerApp/pizzaServerApp/wwwroot/Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg'
+2024-05-02 00:24:51.853 +03:00 [INF] HTTP GET /Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg responded 200 in 5.5738 ms
+2024-05-02 00:24:51.854 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg - 200 45315 image/jpeg 7.4087ms
+2024-05-02 00:24:56.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/kaliforniya-main_image-9315-17404.jpg - null null
+2024-05-02 00:24:56.445 +03:00 [INF] Sending file. Request path: '/Img/menu/kaliforniya-main_image-9315-17404.jpg'. Physical path: '/Users/toad/Desktop/diplom/PizzaServerApp/pizzaServerApp/wwwroot/Img/menu/kaliforniya-main_image-9315-17404.jpg'
+2024-05-02 00:24:56.445 +03:00 [INF] HTTP GET /Img/menu/kaliforniya-main_image-9315-17404.jpg responded 200 in 7.0299 ms
+2024-05-02 00:24:56.445 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/kaliforniya-main_image-9315-17404.jpg - 200 31694 image/jpeg 8.0416ms
+2024-05-02 00:24:56.501 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg - null null
+2024-05-02 00:24:56.537 +03:00 [INF] Sending file. Request path: '/Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg'. Physical path: '/Users/toad/Desktop/diplom/PizzaServerApp/pizzaServerApp/wwwroot/Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg'
+2024-05-02 00:24:56.537 +03:00 [INF] HTTP GET /Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg responded 200 in 34.9444 ms
+2024-05-02 00:24:56.538 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg - 200 29889 image/jpeg 36.5438ms
+2024-05-02 00:24:56.585 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/udon-s-kuricey-v-souse-teriyaki-main_image-194-70232.jpg - null null
+2024-05-02 00:24:56.595 +03:00 [INF] Sending file. Request path: '/Img/menu/udon-s-kuricey-v-souse-teriyaki-main_image-194-70232.jpg'. Physical path: '/Users/toad/Desktop/diplom/PizzaServerApp/pizzaServerApp/wwwroot/Img/menu/udon-s-kuricey-v-souse-teriyaki-main_image-194-70232.jpg'
+2024-05-02 00:24:56.595 +03:00 [INF] HTTP GET /Img/menu/udon-s-kuricey-v-souse-teriyaki-main_image-194-70232.jpg responded 200 in 9.6676 ms
+2024-05-02 00:24:56.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/udon-s-kuricey-v-souse-teriyaki-main_image-194-70232.jpg - 200 35148 image/jpeg 10.8782ms
+2024-05-02 00:40:03.017 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - null 0
+2024-05-02 00:40:03.044 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:40:03.045 +03:00 [INF] HTTP OPTIONS /api/DefaultProducts/MenuList responded 204 in 0.3275 ms
+2024-05-02 00:40:03.045 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - 204 null null 28.085ms
+2024-05-02 00:40:03.047 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - application/json null
+2024-05-02 00:40:03.047 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:40:03.048 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 00:40:03.049 +03:00 [INF] Route matched with {action = "GetMenuList", controller = "DefaultProducts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.defaultProductDTO]]] GetMenuList() on controller pizzaServerApp.Controllers.DefaultProductsController (pizzaServerApp).
+2024-05-02 00:40:03.214 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.menuListDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 00:40:03.215 +03:00 [INF] Executed action pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp) in 165.8426ms
+2024-05-02 00:40:03.215 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 00:40:03.215 +03:00 [INF] HTTP GET /api/DefaultProducts/MenuList responded 200 in 167.3760 ms
+2024-05-02 00:40:03.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - 200 null application/json; charset=utf-8 168.4543ms
+2024-05-02 00:40:03.253 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg - null null
+2024-05-02 00:40:03.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg - null null
+2024-05-02 00:40:03.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg - null null
+2024-05-02 00:40:03.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg - null null
+2024-05-02 00:40:03.281 +03:00 [INF] The file /Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg was not modified
+2024-05-02 00:40:03.281 +03:00 [INF] HTTP GET /Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg responded 304 in 1.2746 ms
+2024-05-02 00:40:03.281 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg - 304 null image/jpeg 1.5445ms
+2024-05-02 00:40:03.281 +03:00 [INF] The file /Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg was not modified
+2024-05-02 00:40:03.281 +03:00 [INF] HTTP GET /Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg responded 304 in 28.3904 ms
+2024-05-02 00:40:03.281 +03:00 [INF] The file /Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg was not modified
+2024-05-02 00:40:03.281 +03:00 [INF] HTTP GET /Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg responded 304 in 1.2858 ms
+2024-05-02 00:40:03.281 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg - 304 null image/jpeg 28.5753ms
+2024-05-02 00:40:03.281 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/myasnoy-bum-bolshaya-main_image-9574-80899.jpg - 304 null image/jpeg 2.2824ms
+2024-05-02 00:40:03.281 +03:00 [INF] The file /Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg was not modified
+2024-05-02 00:40:03.282 +03:00 [INF] HTTP GET /Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg responded 304 in 1.9455 ms
+2024-05-02 00:40:03.282 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/filadelfiya-8sht-main_image-6796-89375.jpg - 304 null image/jpeg 2.0653ms
+2024-05-02 00:40:03.288 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/kaliforniya-main_image-9315-17404.jpg - null null
+2024-05-02 00:40:03.288 +03:00 [INF] The file /Img/menu/kaliforniya-main_image-9315-17404.jpg was not modified
+2024-05-02 00:40:03.288 +03:00 [INF] HTTP GET /Img/menu/kaliforniya-main_image-9315-17404.jpg responded 304 in 0.2694 ms
+2024-05-02 00:40:03.289 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/kaliforniya-main_image-9315-17404.jpg - 304 null image/jpeg 0.6865ms
+2024-05-02 00:40:27.214 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/account/login - null 0
+2024-05-02 00:40:27.215 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:40:27.215 +03:00 [INF] HTTP OPTIONS /api/account/login responded 204 in 0.1282 ms
+2024-05-02 00:40:27.215 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/account/login - 204 null null 1.2877ms
+2024-05-02 00:40:27.252 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7136/api/account/login - application/json 63
+2024-05-02 00:40:27.252 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:40:27.252 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp)'
+2024-05-02 00:40:27.252 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-05-02 00:40:27.386 +03:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.newUserDTO'.
+2024-05-02 00:40:27.386 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp) in 133.8152ms
+2024-05-02 00:40:27.386 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp)'
+2024-05-02 00:40:27.386 +03:00 [INF] HTTP POST /api/account/login responded 200 in 134.2060 ms
+2024-05-02 00:40:27.386 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7136/api/account/login - 200 null application/json; charset=utf-8 156.9305ms
+2024-05-02 00:41:17.985 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/BannerType/ - null 0
+2024-05-02 00:41:17.986 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:41:17.986 +03:00 [INF] HTTP OPTIONS /api/BannerType/ responded 204 in 0.0900 ms
+2024-05-02 00:41:17.986 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/BannerType/ - 204 null null 1.6871ms
+2024-05-02 00:41:17.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType/ - application/json null
+2024-05-02 00:41:17.990 +03:00 [INF] CORS policy execution successful.
+2024-05-02 00:41:17.991 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.BannerTypeController.GetBannerTypes (pizzaServerApp)'
+2024-05-02 00:41:17.991 +03:00 [INF] Route matched with {action = "GetBannerTypes", controller = "BannerType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.bannerTypeDTO]]] GetBannerTypes() on controller pizzaServerApp.Controllers.BannerTypeController (pizzaServerApp).
+2024-05-02 00:41:18.016 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.bannerTypeDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 00:41:18.016 +03:00 [INF] Executed action pizzaServerApp.Controllers.BannerTypeController.GetBannerTypes (pizzaServerApp) in 24.9007ms
+2024-05-02 00:41:18.016 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.BannerTypeController.GetBannerTypes (pizzaServerApp)'
+2024-05-02 00:41:18.016 +03:00 [INF] HTTP GET /api/BannerType/ responded 200 in 26.0103 ms
+2024-05-02 00:41:18.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType/ - 200 null application/json; charset=utf-8 26.5318ms
+2024-05-02 01:13:40.041 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - null null
+2024-05-02 01:13:40.041 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/ProductType - null null
+2024-05-02 01:13:40.047 +03:00 [INF] CORS policy execution successful.
+2024-05-02 01:13:40.047 +03:00 [INF] HTTP OPTIONS /api/ProductType responded 204 in 0.2208 ms
+2024-05-02 01:13:40.047 +03:00 [INF] CORS policy execution successful.
+2024-05-02 01:13:40.049 +03:00 [INF] HTTP OPTIONS /api/DefaultProducts/MenuList responded 204 in 3.0709 ms
+2024-05-02 01:13:40.049 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/ProductType - 204 null null 8.683ms
+2024-05-02 01:13:40.050 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - 204 null null 9.4973ms
+2024-05-02 01:13:40.060 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/ProductType - application/json null
+2024-05-02 01:13:40.061 +03:00 [INF] CORS policy execution successful.
+2024-05-02 01:13:40.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - application/json null
+2024-05-02 01:13:40.061 +03:00 [INF] CORS policy execution successful.
+2024-05-02 01:13:40.098 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 22:13:40'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 01:13:40.100 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 22:13:40'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 01:13:40.101 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 22:13:40'.
+2024-05-02 01:13:40.101 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 01:13:40.102 +03:00 [INF] Route matched with {action = "GetProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.productTypeDTO]]] GetProductTypes() on controller pizzaServerApp.Controllers.ProductTypeController (pizzaServerApp).
+2024-05-02 01:13:40.101 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 22:13:40'.
+2024-05-02 01:13:40.107 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 01:13:40.108 +03:00 [INF] Route matched with {action = "GetMenuList", controller = "DefaultProducts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.defaultProductDTO]]] GetMenuList() on controller pizzaServerApp.Controllers.DefaultProductsController (pizzaServerApp).
+2024-05-02 01:13:40.191 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.productTypeDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 01:13:40.191 +03:00 [INF] Executed action pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp) in 89.6388ms
+2024-05-02 01:13:40.191 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 01:13:40.191 +03:00 [INF] HTTP GET /api/ProductType responded 200 in 130.9753 ms
+2024-05-02 01:13:40.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/ProductType - 200 null application/json; charset=utf-8 131.823ms
+2024-05-02 01:13:40.195 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.menuListDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 01:13:40.195 +03:00 [INF] Executed action pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp) in 87.3181ms
+2024-05-02 01:13:40.195 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 01:13:40.195 +03:00 [INF] HTTP GET /api/DefaultProducts/MenuList responded 200 in 134.6102 ms
+2024-05-02 01:13:40.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - 200 null application/json; charset=utf-8 134.802ms
+2024-05-02 02:49:10.324 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - null null
+2024-05-02 02:49:10.324 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/ProductType - null null
+2024-05-02 02:49:10.326 +03:00 [INF] CORS policy execution successful.
+2024-05-02 02:49:10.326 +03:00 [INF] CORS policy execution successful.
+2024-05-02 02:49:10.326 +03:00 [INF] HTTP OPTIONS /api/ProductType responded 204 in 0.4222 ms
+2024-05-02 02:49:10.326 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/ProductType - 204 null null 2.6387ms
+2024-05-02 02:49:10.326 +03:00 [INF] HTTP OPTIONS /api/DefaultProducts/MenuList responded 204 in 0.0453 ms
+2024-05-02 02:49:10.327 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - 204 null null 2.7787ms
+2024-05-02 02:49:10.337 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - application/json null
+2024-05-02 02:49:10.337 +03:00 [INF] CORS policy execution successful.
+2024-05-02 02:49:10.370 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/ProductType - application/json null
+2024-05-02 02:49:10.371 +03:00 [INF] CORS policy execution successful.
+2024-05-02 02:49:10.376 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 23:49:10'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 02:49:10.378 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 23:49:10'.
+2024-05-02 02:49:10.378 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 02:49:10.378 +03:00 [INF] Route matched with {action = "GetProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.productTypeDTO]]] GetProductTypes() on controller pizzaServerApp.Controllers.ProductTypeController (pizzaServerApp).
+2024-05-02 02:49:10.379 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 23:49:10'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 02:49:10.380 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '01.05.2024 23:49:10'.
+2024-05-02 02:49:10.380 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 02:49:10.380 +03:00 [INF] Route matched with {action = "GetMenuList", controller = "DefaultProducts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.defaultProductDTO]]] GetMenuList() on controller pizzaServerApp.Controllers.DefaultProductsController (pizzaServerApp).
+2024-05-02 02:49:10.586 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.productTypeDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 02:49:10.587 +03:00 [INF] Executed action pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp) in 208.4137ms
+2024-05-02 02:49:10.587 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 02:49:10.587 +03:00 [INF] HTTP GET /api/ProductType responded 200 in 216.5587 ms
+2024-05-02 02:49:10.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/ProductType - 200 null application/json; charset=utf-8 217.2312ms
+2024-05-02 02:49:10.594 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.menuListDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 02:49:10.594 +03:00 [INF] Executed action pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp) in 214.3987ms
+2024-05-02 02:49:10.594 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 02:49:10.594 +03:00 [INF] HTTP GET /api/DefaultProducts/MenuList responded 200 in 256.9221 ms
+2024-05-02 02:49:10.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - 200 null application/json; charset=utf-8 257.6426ms
+2024-05-02 08:08:40.446 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/ProductType - null null
+2024-05-02 08:08:40.446 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - null null
+2024-05-02 08:08:40.449 +03:00 [INF] CORS policy execution successful.
+2024-05-02 08:08:40.449 +03:00 [INF] HTTP OPTIONS /api/DefaultProducts/MenuList responded 204 in 0.0585 ms
+2024-05-02 08:08:40.449 +03:00 [INF] CORS policy execution successful.
+2024-05-02 08:08:40.470 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/DefaultProducts/MenuList - 204 null null 3.1001ms
+2024-05-02 08:08:40.470 +03:00 [INF] HTTP OPTIONS /api/ProductType responded 204 in 21.0701 ms
+2024-05-02 08:08:40.470 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7136/api/ProductType - 204 null null 24.1749ms
+2024-05-02 08:08:40.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/ProductType - application/json null
+2024-05-02 08:08:40.504 +03:00 [INF] CORS policy execution successful.
+2024-05-02 08:08:40.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - application/json null
+2024-05-02 08:08:40.506 +03:00 [INF] CORS policy execution successful.
+2024-05-02 08:08:40.506 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '02.05.2024 05:08:40'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 08:08:40.537 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '02.05.2024 05:08:40'.
+2024-05-02 08:08:40.537 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 08:08:40.537 +03:00 [INF] Route matched with {action = "GetProductTypes", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.productTypeDTO]]] GetProductTypes() on controller pizzaServerApp.Controllers.ProductTypeController (pizzaServerApp).
+2024-05-02 08:08:40.506 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '02.05.2024 05:08:40'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-02 08:08:40.539 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '13.04.2024 16:02:10', Current time (UTC): '02.05.2024 05:08:40'.
+2024-05-02 08:08:40.539 +03:00 [INF] Executing endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 08:08:40.539 +03:00 [INF] Route matched with {action = "GetMenuList", controller = "DefaultProducts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.defaultProductDTO]]] GetMenuList() on controller pizzaServerApp.Controllers.DefaultProductsController (pizzaServerApp).
+2024-05-02 08:08:40.586 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.productTypeDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 08:08:40.586 +03:00 [INF] Executed action pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp) in 49.241ms
+2024-05-02 08:08:40.586 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.ProductTypeController.GetProductTypes (pizzaServerApp)'
+2024-05-02 08:08:40.586 +03:00 [INF] HTTP GET /api/ProductType responded 200 in 82.8605 ms
+2024-05-02 08:08:40.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/ProductType - 200 null application/json; charset=utf-8 83.1363ms
+2024-05-02 08:08:40.596 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.menuListDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-02 08:08:40.596 +03:00 [INF] Executed action pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp) in 56.7217ms
+2024-05-02 08:08:40.596 +03:00 [INF] Executed endpoint 'pizzaServerApp.Controllers.DefaultProductsController.GetMenuList (pizzaServerApp)'
+2024-05-02 08:08:40.596 +03:00 [INF] HTTP GET /api/DefaultProducts/MenuList responded 200 in 89.9244 ms
+2024-05-02 08:08:40.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/DefaultProducts/MenuList - 200 null application/json; charset=utf-8 92.6322ms
+2024-05-02 12:28:33.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg - null null
+2024-05-02 12:28:33.455 +03:00 [INF] The file /Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg was not modified
+2024-05-02 12:28:33.456 +03:00 [INF] HTTP GET /Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg responded 304 in 1.3808 ms
+2024-05-02 12:28:33.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/pepperoni-bolshaya-main_image-3612-77066.jpg - 304 null image/jpeg 3.3911ms
+2024-05-02 12:28:33.456 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg - null null
+2024-05-02 12:28:33.456 +03:00 [INF] The file /Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg was not modified
+2024-05-02 12:28:33.456 +03:00 [INF] HTTP GET /Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg responded 304 in 0.2948 ms
+2024-05-02 12:28:33.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/Img/menu/4-syra-bolshaya-main_image-3416-31557.jpg - 304 null image/jpeg 0.4731ms

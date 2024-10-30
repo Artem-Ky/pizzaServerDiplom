@@ -1,0 +1,359 @@
+2024-10-17 12:08:21.754 +03:00 [INF] User profile is available. Using '/Users/toad/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-17 12:08:21.820 +03:00 [INF] Creating key {d5ebaa5a-9c19-46e0-8b44-7a44a6bc608e} with creation date 2024-10-17 09:08:21Z, activation date 2024-10-17 09:08:21Z, and expiration date 2025-01-15 09:08:21Z.
+2024-10-17 12:08:21.822 +03:00 [WRN] No XML encryptor configured. Key {d5ebaa5a-9c19-46e0-8b44-7a44a6bc608e} may be persisted to storage in unencrypted form.
+2024-10-17 12:08:21.823 +03:00 [INF] Writing data to file '/Users/toad/.aspnet/DataProtection-Keys/key-d5ebaa5a-9c19-46e0-8b44-7a44a6bc608e.xml'.
+2024-10-17 12:08:22.091 +03:00 [INF] Now listening on: https://localhost:7136
+2024-10-17 12:08:22.091 +03:00 [INF] Now listening on: http://localhost:5178
+2024-10-17 12:08:22.092 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-17 12:08:22.093 +03:00 [INF] Hosting environment: Development
+2024-10-17 12:08:22.093 +03:00 [INF] Content root path: /Users/toad/Desktop/diplom/PizzaServerApp/pizzaServerApp
+2024-10-17 12:08:23.442 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger - null null
+2024-10-17 12:08:23.468 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger - 301 0 null 35.99ms
+2024-10-17 12:08:23.484 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - null null
+2024-10-17 12:08:23.530 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - 200 null text/html;charset=utf-8 45.6921ms
+2024-10-17 12:08:23.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-17 12:08:23.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui-bundle.js - null null
+2024-10-17 12:08:23.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui.css - null null
+2024-10-17 12:08:23.759 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-17 12:08:23.759 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-17 12:08:23.759 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui.css - 200 143943 text/css 222.7107ms
+2024-10-17 12:08:23.759 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 222.4275ms
+2024-10-17 12:08:23.865 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-17 12:08:23.865 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 328.2742ms
+2024-10-17 12:08:23.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - null null
+2024-10-17 12:08:24.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - null null
+2024-10-17 12:08:24.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/favicon-16x16.png - null null
+2024-10-17 12:08:24.021 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-17 12:08:24.021 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-17 12:08:24.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/favicon-16x16.png - 200 665 image/png 0.9179ms
+2024-10-17 12:08:24.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - 200 628 image/png 0.798ms
+2024-10-17 12:08:24.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 98.8849ms
+2024-10-17 12:08:58.152 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/DefaultProducts - null null
+2024-10-17 12:08:58.218 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:08:58.220 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:08:58.221 +03:00 [INF] HTTP GET /api/DefaultProducts responded 401 in 41.4352 ms
+2024-10-17 12:08:58.225 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/DefaultProducts - 401 0 null 73.0138ms
+2024-10-17 12:09:06.370 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/DefaultProducts - null null
+2024-10-17 12:09:06.380 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:09:06.381 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:09:06.382 +03:00 [INF] HTTP GET /api/DefaultProducts responded 401 in 7.4370 ms
+2024-10-17 12:09:06.383 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/DefaultProducts - 401 0 null 12.0947ms
+2024-10-17 12:09:15.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:09:15.087 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:09:15.087 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:09:15.087 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 2.4512 ms
+2024-10-17 12:09:15.087 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 3.2802ms
+2024-10-17 12:09:16.766 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:09:16.767 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:09:16.767 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:09:16.767 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.4496 ms
+2024-10-17 12:09:16.767 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 1.1101ms
+2024-10-17 12:09:54.665 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7136/api/account/register - application/json 46
+2024-10-17 12:09:54.672 +03:00 [INF] CORS policy execution successful.
+2024-10-17 12:09:54.677 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:09:54.700 +03:00 [INF] Route matched with {action = "Registration", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(Application.DTOs.RegisterDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-10-17 12:09:55.728 +03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-17 12:09:55.734 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp) in 1031.6583ms
+2024-10-17 12:09:55.734 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:09:55.735 +03:00 [INF] HTTP POST /api/account/register responded 201 in 1067.1250 ms
+2024-10-17 12:09:55.739 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7136/api/account/register - 201 null application/json; charset=utf-8 1073.2514ms
+2024-10-17 12:10:06.502 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7136/api/account/register - application/json 51
+2024-10-17 12:10:06.504 +03:00 [INF] CORS policy execution successful.
+2024-10-17 12:10:06.504 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:10:06.505 +03:00 [INF] Route matched with {action = "Registration", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(Application.DTOs.RegisterDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-10-17 12:10:06.601 +03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-17 12:10:06.602 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp) in 97.0237ms
+2024-10-17 12:10:06.602 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:10:06.602 +03:00 [INF] HTTP POST /api/account/register responded 201 in 98.4995 ms
+2024-10-17 12:10:06.602 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7136/api/account/register - 201 null application/json; charset=utf-8 100.5782ms
+2024-10-17 12:10:10.950 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7136/api/account/register - application/json 52
+2024-10-17 12:10:10.951 +03:00 [INF] CORS policy execution successful.
+2024-10-17 12:10:10.951 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:10:10.952 +03:00 [INF] Route matched with {action = "Registration", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(Application.DTOs.RegisterDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-10-17 12:10:11.052 +03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-17 12:10:11.052 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp) in 100.6547ms
+2024-10-17 12:10:11.053 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:10:11.053 +03:00 [INF] HTTP POST /api/account/register responded 201 in 101.8288 ms
+2024-10-17 12:10:11.053 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7136/api/account/register - 201 null application/json; charset=utf-8 102.6915ms
+2024-10-17 12:10:19.154 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7136/api/account/register - application/json 54
+2024-10-17 12:10:19.155 +03:00 [INF] CORS policy execution successful.
+2024-10-17 12:10:19.155 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:10:19.156 +03:00 [INF] Route matched with {action = "Registration", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(Application.DTOs.RegisterDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-10-17 12:10:19.192 +03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-17 12:10:19.193 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp) in 37.1908ms
+2024-10-17 12:10:19.193 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:10:19.193 +03:00 [INF] HTTP POST /api/account/register responded 201 in 38.3278 ms
+2024-10-17 12:10:19.194 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7136/api/account/register - 201 null application/json; charset=utf-8 40.0958ms
+2024-10-17 12:10:22.306 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7136/api/account/register - application/json 55
+2024-10-17 12:10:22.307 +03:00 [INF] CORS policy execution successful.
+2024-10-17 12:10:22.307 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:10:22.307 +03:00 [INF] Route matched with {action = "Registration", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(Application.DTOs.RegisterDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-10-17 12:10:22.798 +03:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.newUserDTO'.
+2024-10-17 12:10:22.799 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp) in 492.3433ms
+2024-10-17 12:10:22.799 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Registration (pizzaServerApp)'
+2024-10-17 12:10:22.799 +03:00 [INF] HTTP POST /api/account/register responded 200 in 492.8044 ms
+2024-10-17 12:10:22.799 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7136/api/account/register - 200 null application/json; charset=utf-8 493.5583ms
+2024-10-17 12:11:22.524 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7136/api/account/login - application/json 78
+2024-10-17 12:11:22.527 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp)'
+2024-10-17 12:11:22.536 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-10-17 12:11:22.765 +03:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.newUserDTO'.
+2024-10-17 12:11:22.766 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp) in 229.8382ms
+2024-10-17 12:11:22.766 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp)'
+2024-10-17 12:11:22.766 +03:00 [INF] HTTP POST /api/account/login responded 200 in 240.3375 ms
+2024-10-17 12:11:22.766 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7136/api/account/login - 200 null application/json; charset=utf-8 242.3615ms
+2024-10-17 12:12:11.216 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/DefaultProducts - null null
+2024-10-17 12:12:11.219 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:12:11.219 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:12:11.220 +03:00 [INF] HTTP GET /api/DefaultProducts responded 401 in 0.9058 ms
+2024-10-17 12:12:11.220 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/DefaultProducts - 401 0 null 4.6407ms
+2024-10-17 12:12:18.706 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/DefaultProducts - null null
+2024-10-17 12:12:18.707 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:12:18.707 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:12:18.707 +03:00 [INF] HTTP GET /api/DefaultProducts responded 401 in 0.5616 ms
+2024-10-17 12:12:18.707 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/DefaultProducts - 401 0 null 1.0884ms
+2024-10-17 12:12:31.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/favicon.ico - null null
+2024-10-17 12:12:31.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/apple-touch-icon-precomposed.png - null null
+2024-10-17 12:12:31.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/apple-touch-icon.png - null null
+2024-10-17 12:12:31.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/favicon-16x16.png - null null
+2024-10-17 12:12:31.916 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-17 12:12:31.951 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/favicon-16x16.png - 200 665 image/png 30.0586ms
+2024-10-17 12:12:31.989 +03:00 [INF] HTTP GET /apple-touch-icon.png responded 404 in 76.7629 ms
+2024-10-17 12:12:31.989 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/apple-touch-icon.png - 404 0 null 108.4497ms
+2024-10-17 12:12:31.991 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 78.2849 ms
+2024-10-17 12:12:31.991 +03:00 [INF] HTTP GET /apple-touch-icon-precomposed.png responded 404 in 107.5629 ms
+2024-10-17 12:12:31.991 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/apple-touch-icon-precomposed.png - 404 0 null 108.8942ms
+2024-10-17 12:12:31.991 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/apple-touch-icon-precomposed.png, Response status code: 404
+2024-10-17 12:12:31.991 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - null null
+2024-10-17 12:12:31.992 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-17 12:12:31.991 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/favicon.ico - 404 0 null 110.5113ms
+2024-10-17 12:12:31.993 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/favicon.ico, Response status code: 404
+2024-10-17 12:12:31.993 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/apple-touch-icon.png, Response status code: 404
+2024-10-17 12:12:31.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - 200 628 image/png 1.8968ms
+2024-10-17 12:13:09.945 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/DefaultProduct - null null
+2024-10-17 12:13:09.970 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-10-17 12:13:09.987 +03:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-10-17 12:13:09.988 +03:00 [INF] HTTP GET /api/DefaultProduct responded 404 in 39.3887 ms
+2024-10-17 12:13:09.988 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/DefaultProduct - 404 0 null 43.3046ms
+2024-10-17 12:13:09.988 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api/DefaultProduct, Response status code: 404
+2024-10-17 12:13:14.203 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/DefaultProduct - null null
+2024-10-17 12:13:14.204 +03:00 [INF] HTTP GET /api/DefaultProduct responded 404 in 0.1104 ms
+2024-10-17 12:13:14.204 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/DefaultProduct - 404 0 null 0.5905ms
+2024-10-17 12:13:14.204 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7136/api/DefaultProduct, Response status code: 404
+2024-10-17 12:13:37.943 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:13:37.946 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:13:37.947 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:13:37.947 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.9734 ms
+2024-10-17 12:13:37.948 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/BannerType - 401 0 null 4.7619ms
+2024-10-17 12:13:45.179 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:13:45.179 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:13:45.180 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:13:45.180 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.5412 ms
+2024-10-17 12:13:45.180 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/BannerType - 401 0 null 1.2906ms
+2024-10-17 12:13:49.002 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:13:49.035 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:13:49.036 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:13:49.036 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 33.2158 ms
+2024-10-17 12:13:49.036 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/BannerType - 403 0 null 33.7208ms
+2024-10-17 12:15:21.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:21.868 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:21.869 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:21.869 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 2.0773 ms
+2024-10-17 12:15:21.869 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 9.8517ms
+2024-10-17 12:15:23.996 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:23.996 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:23.996 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:23.996 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.2835 ms
+2024-10-17 12:15:23.997 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 0.6426ms
+2024-10-17 12:15:24.476 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:24.478 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:24.478 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:24.478 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.5381 ms
+2024-10-17 12:15:24.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 2.0507ms
+2024-10-17 12:15:24.649 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:24.649 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:24.649 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:24.649 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.2786 ms
+2024-10-17 12:15:24.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 0.7001ms
+2024-10-17 12:15:24.808 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:24.809 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:24.809 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:24.809 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.6776 ms
+2024-10-17 12:15:24.809 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 1.286ms
+2024-10-17 12:15:24.979 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:24.980 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:24.980 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:24.980 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.5275 ms
+2024-10-17 12:15:24.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 1.2098ms
+2024-10-17 12:15:25.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:25.130 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:25.130 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:25.131 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.4078 ms
+2024-10-17 12:15:25.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 0.8518ms
+2024-10-17 12:15:25.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:25.293 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:25.293 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:25.293 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.6822 ms
+2024-10-17 12:15:25.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 2.6422ms
+2024-10-17 12:15:25.457 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:15:25.458 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:15:25.458 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:15:25.458 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.3622 ms
+2024-10-17 12:15:25.458 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 1.0542ms
+2024-10-17 12:15:44.847 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7136/api/account/login - application/json 77
+2024-10-17 12:15:44.849 +03:00 [INF] CORS policy execution successful.
+2024-10-17 12:15:44.849 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp)'
+2024-10-17 12:15:44.850 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-10-17 12:15:44.977 +03:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.newUserDTO'.
+2024-10-17 12:15:44.977 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp) in 127.6415ms
+2024-10-17 12:15:44.978 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp)'
+2024-10-17 12:15:44.978 +03:00 [INF] HTTP POST /api/account/login responded 200 in 128.8668 ms
+2024-10-17 12:15:44.978 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7136/api/account/login - 200 null application/json; charset=utf-8 130.443ms
+2024-10-17 12:16:06.609 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:16:06.611 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:16:06.611 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-17 12:16:06.611 +03:00 [INF] HTTP GET /api/BannerType responded 401 in 0.6913 ms
+2024-10-17 12:16:06.611 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 401 0 null 2.3903ms
+2024-10-17 12:16:18.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:16:18.618 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:16:18.618 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:16:18.618 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 2.6622 ms
+2024-10-17 12:16:18.618 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 5.3541ms
+2024-10-17 12:18:27.136 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:18:27.144 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:18:27.145 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:18:27.145 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 7.1150 ms
+2024-10-17 12:18:27.145 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/BannerType - 403 0 null 10.014ms
+2024-10-17 12:18:37.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:18:37.519 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:18:37.519 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:18:37.519 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 1.1013 ms
+2024-10-17 12:18:37.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 1.718ms
+2024-10-17 12:18:39.073 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:18:39.074 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:18:39.074 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:18:39.074 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 0.7605 ms
+2024-10-17 12:18:39.074 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 1.1839ms
+2024-10-17 12:19:05.420 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7136/api/account/login - application/json 77
+2024-10-17 12:19:05.444 +03:00 [INF] CORS policy execution successful.
+2024-10-17 12:19:05.445 +03:00 [INF] Executing endpoint 'ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp)'
+2024-10-17 12:19:05.447 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller ASPNetCoreApp.Controllers.AccountController (pizzaServerApp).
+2024-10-17 12:19:05.709 +03:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.newUserDTO'.
+2024-10-17 12:19:05.709 +03:00 [INF] Executed action ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp) in 261.9241ms
+2024-10-17 12:19:05.709 +03:00 [INF] Executed endpoint 'ASPNetCoreApp.Controllers.AccountController.Login (pizzaServerApp)'
+2024-10-17 12:19:05.709 +03:00 [INF] HTTP POST /api/account/login responded 200 in 266.0188 ms
+2024-10-17 12:19:05.709 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7136/api/account/login - 200 null application/json; charset=utf-8 290.0037ms
+2024-10-17 12:19:23.562 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:23.562 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:23.563 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:23.563 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 0.6600 ms
+2024-10-17 12:19:23.563 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 0.9952ms
+2024-10-17 12:19:24.114 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:24.114 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:24.114 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:24.114 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 0.5427 ms
+2024-10-17 12:19:24.115 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 0.8758ms
+2024-10-17 12:19:24.285 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:24.286 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:24.286 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:24.286 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 0.6475 ms
+2024-10-17 12:19:24.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 1.0031ms
+2024-10-17 12:19:24.417 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:24.419 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:24.419 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:24.419 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 1.4633 ms
+2024-10-17 12:19:24.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 2.0595ms
+2024-10-17 12:19:24.563 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:24.564 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:24.564 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:24.564 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 0.7340 ms
+2024-10-17 12:19:24.564 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 1.4648ms
+2024-10-17 12:19:24.714 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:24.716 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:24.716 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:24.717 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 1.6872 ms
+2024-10-17 12:19:24.717 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 2.3443ms
+2024-10-17 12:19:24.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:24.863 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:24.863 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:24.863 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 0.5795 ms
+2024-10-17 12:19:24.863 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 1.2116ms
+2024-10-17 12:19:25.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:25.017 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:25.017 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:25.017 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 0.6998 ms
+2024-10-17 12:19:25.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 1.0313ms
+2024-10-17 12:19:25.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:25.162 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:25.162 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:25.162 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 1.8375 ms
+2024-10-17 12:19:25.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 2.8984ms
+2024-10-17 12:19:25.310 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/BannerType - null null
+2024-10-17 12:19:25.312 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:25.312 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:25.312 +03:00 [INF] HTTP GET /api/BannerType responded 403 in 0.7596 ms
+2024-10-17 12:19:25.312 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/BannerType - 403 0 null 1.5392ms
+2024-10-17 12:19:31.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/ComboProducts - null null
+2024-10-17 12:19:31.634 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:31.634 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:31.634 +03:00 [INF] HTTP GET /api/ComboProducts responded 403 in 0.6285 ms
+2024-10-17 12:19:31.634 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/ComboProducts - 403 0 null 1.1545ms
+2024-10-17 12:19:32.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/ComboProducts - null null
+2024-10-17 12:19:32.839 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:32.839 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:32.839 +03:00 [INF] HTTP GET /api/ComboProducts responded 403 in 46.3448 ms
+2024-10-17 12:19:32.839 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/ComboProducts - 403 0 null 46.6908ms
+2024-10-17 12:19:36.371 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7136/api/DefaultProducts - null null
+2024-10-17 12:19:36.372 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-17 12:19:36.372 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-10-17 12:19:36.372 +03:00 [INF] HTTP GET /api/DefaultProducts responded 403 in 0.6026 ms
+2024-10-17 12:19:36.372 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7136/api/DefaultProducts - 403 0 null 1.3288ms
